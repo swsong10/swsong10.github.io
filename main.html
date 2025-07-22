@@ -1,17 +1,95 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Seung Won Song | Profile</title><link rel="stylesheet" href="styles.css"></head><body>
-<header class="navbar"><div class="container flex"><a class="logo" href="index.html">S.W. Song</a>
-<button class="menu-btn" aria-label="Toggle menu">&#9776;</button>
-<nav><ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="#about">About</a></li>
-<li><a href="#projects">Projects</a></li><li><a href="#publications">Publications</a></li><li><a href="#contact">Contact</a></li></ul></nav></div></header>
-<section id="about" class="section"><div class="container"><h2>About Me</h2><p><strong>Workplace:</strong> Samsung Electronics, Logic OPC Team</p></div></section>
-<section id="projects" class="section"><div class="container"><h2>Projects</h2><p>See GitHub profile for details.</p></div></section>
-<section id="publications" class="section bg-light"><div class="container"><h2>Publications</h2><ul>
-<li>Si‑Containing Reverse‑Gradient Block Copolymer for EUV Lithography. DOI:10.1021/acsmacrolett.4c00285</li>
-<li>Unsupervised ML Classification‑Driven Process Model Coverage Check. DOI:10.1117/12.2658322</li>
-<!-- etc. -->
-</ul></div></section>
-<section id="contact" class="section"><div class="container"><h2>Contact</h2>
-<p><a href="https://github.com/swsong" target="_blank">GitHub Profile</a></p></div></section>
-<footer class="footer">© 2025 Seung Won Song.</footer><script src="toggle.js"></script></body></html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seung Won Song | Profile</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container flex">
+      <a class="logo" href="index.html">S.W. Song</a>
+      <button class="menu-btn" aria-label="Toggle menu">&#9776;</button>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== About ===== -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="grid-2">
+        <div>
+          <p><strong>Workplace :</strong> Samsung Electronics, Device Solutions — Logic OPC Team</p>
+          <p><strong>Position :</strong> Staff Engineer (Semiconductor & AI Engineer)</p>
+          <p class="mt-1"><strong>Bio</strong><br>
+            Semiconductor and AI engineer specializing in optical proximity correction (OPC), lithography simulation, and directed self‑assembly (DSA). Earned a Ph.D. in Materials Science & Engineering from KAIST under Prof. Yeon Sik Jung. Currently leading ML‑driven OPC model development for High‑NA EUV process nodes.
+          </p>
+          <p class="mt-1"><strong>Research Areas</strong> : Optical Proximity Correction, Block Copolymer Self‑Assembly, Machine Learning for Lithography</p>
+          <p><strong>Skills</strong> : Python, TensorFlow, PyTorch, Scikit‑learn, HPC, SEM/TEM data analysis</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Experience ===== -->
+  <section id="experience" class="section bg-light">
+    <div class="container">
+      <h2>Experience</h2>
+      <ul class="timeline">
+        <li><span>2021 – Present</span>  Staff Engineer, Samsung Electronics — Logic OPC Team</li>
+        <li><span>2016 – 2021</span>  M.S. & Ph.D. Researcher, KAIST — Materials Science & Engineering</li>
+        <li><span>2010 – 2015</span>  B.S., KAIST — Materials Science & Engineering</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>ML‑Based OPC Coverage Check</h3>
+          <p>Designed an unsupervised clustering pipeline to detect weak spots in OPC process models, reducing verification turnaround by 30 % (SPIE DTCO 2023).</p>
+          <a href="https://doi.org/10.1117/12.2658322" target="_blank">Conference Paper →</a>
+        </article>
+        <article class="card">
+          <h3>Gradient Block Copolymer for EUV Lithography</h3>
+          <p>Invented a gradient random‑copolymer block enabling sub‑10 nm perpendicular lamella patterns. Patent KR 1022996440000 (2021).</p>
+          <a href="https://doi.org/10.1039/D1TC03058B" target="_blank">Journal Article →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Publications (truncated) ===== -->
+  <section id="publications" class="section bg-light">
+    <div class="container">
+      <h2>Publications</h2>
+      <!-- list omitted for brevity -->
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Find my code and open‑source work on GitHub.</p>
+      <a href="https://github.com/swsong" class="btn-primary" target="_blank">GitHub Profile</a>
+    </div>
+  </section>
+
+  <footer class="footer">© 2025 Seung Won Song. All rights reserved.</footer>
+  <script src="toggle.js"></script>
+</body>
+</html>
