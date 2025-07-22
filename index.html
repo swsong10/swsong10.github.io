@@ -1,3 +1,9 @@
+<!-- ============================
+ Seung Won Song – Personal Web Page
+ Updated 2025‑07‑22 (photo removed, DOI corrected, pubs restored, minor added, GitHub link fixed)
+============================= -->
+
+<!-- ========== index.html ========= -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,12 +32,116 @@
   <section class="hero">
     <div class="container center">
       <h1>Hello, I’m <span class="accent">Seung Won Song</span></h1>
-      <p class="tagline">Staff Engineer (Logic OPC) @ Samsung Electronics • Ph.D. Materials Science & Engineering</p>
+      <p class="tagline">Staff Engineer (Logic OPC) @ Samsung Electronics • Ph.D. Materials Science & Engineering • OPC & DSA Researcher</p>
       <a href="main.html#contact" class="btn-primary">Connect</a>
     </div>
   </section>
 
-  <footer class="footer">© 2025 Seung Won Song.</footer>
+  <footer class="footer">© 2025 Seung Won Song. All rights reserved.</footer>
   <script src="toggle.js"></script>
 </body>
 </html>
+
+<!-- ========== main.html ========= -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seung Won Song | Profile</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container flex">
+      <a class="logo" href="index.html">S.W. Song</a>
+      <button class="menu-btn" aria-label="Toggle navigation">&#9776;</button>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== About ===== -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="grid-2">
+        <div>
+          <p><strong>Workplace:</strong> Samsung Electronics, Device Solutions — Logic OPC Team</p>
+          <p><strong>Position:</strong> Staff Engineer (Semiconductor & AI Engineer)</p>
+          <p class="mt-1"><strong>Bio</strong><br>
+            Semiconductor and AI engineer specializing in optical proximity correction (OPC), lithography simulation, and directed self‑assembly (DSA). Earned a Ph.D. in Materials Science & Engineering from KAIST under Prof. Yeon Sik Jung. Currently leading ML‑driven OPC model development for High‑NA EUV process nodes.
+          </p>
+          <p class="mt-1"><strong>Research Areas</strong>: Optical Proximity Correction, Block Copolymer Self‑Assembly, Machine Learning for Lithography</p>
+          <p><strong>Skills</strong>: Python, TensorFlow, PyTorch, Scikit‑learn, HPC, SEM/TEM data analysis</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Experience ===== -->
+  <section id="experience" class="section bg-light">
+    <div class="container">
+      <h2>Experience</h2>
+      <ul class="timeline">
+        <li><span>2021 – Present</span>  Staff Engineer, Samsung Electronics — Logic OPC Team</li>
+        <li><span>2016 – 2021</span>  M.S. & Ph.D. Researcher, KAIST — Materials Science & Engineering</li>
+        <li><span>2010 – 2015</span>  B.S., KAIST — Materials Science & Engineering <em>(Chemistry minor)</em></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>ML‑Based OPC Coverage Check</h3>
+          <p>Designed an unsupervised clustering pipeline to detect weak spots in OPC process models, reducing verification turnaround by 30 % (SPIE DTCO 2023).</p>
+          <a href="https://doi.org/10.1117/12.2658322" target="_blank">Conference Paper →</a>
+        </article>
+        <article class="card">
+          <h3>Gradient Block Copolymer for EUV Lithography</h3>
+          <p>Invented a gradient random‑copolymer block enabling sub‑10 nm perpendicular lamella patterns. Patent KR 1022996440000 (2021).</p>
+          <a href="https://doi.org/10.1039/D1TC03058B" target="_blank">Journal Article →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Publications ===== -->
+  <section id="publications" class="section bg-light">
+    <div class="container">
+      <h2>Publications</h2>
+      <ul class="pub-list">
+        <li><strong>Si‑Containing Reverse‑Gradient Block Copolymer for Inorganic Pattern Amplification in EUV Lithography.</strong> <em>ACS Macro Lett.</em> 13, 943‑950 (2024). <a href="https://doi.org/10.1021/acsmacrolett.4c00285" target="_blank">DOI:10.1021/acsmacrolett.4c00285</a></li>
+        <li><strong>Unsupervised ML Classification‑Driven Process Model Coverage Check.</strong> <em>Proc. SPIE</em> 12495, 1249518 (2023). <a href="https://doi.org/10.1117/12.2658322" target="_blank">DOI:10.1117/12.2658322</a></li>
+        <li><strong>Universal Vertical Standing of Block Copolymer Microdomains Enabled by a Gradient Block.</strong> <em>J. Mater. Chem. C</em> 9, 14021‑14029 (2021). <a href="https://doi.org/10.1039/D1TC03058B" target="_blank">DOI:10.1039/D1TC03058B</a></li>
+        <li><strong>Spontaneous Registration of Sub‑10 nm Features Based on Sub‑Zero‑Celsius Spin‑Casting.</strong> <em>ACS Nano</em> 12, 8224‑8233 (2018). <a href="https://doi.org/10.1021/acsnano.8b03378" target="_blank">DOI:10.1021/acsnano.8b03378</a></li>
+        <li><strong>Thermodynamic and Kinetic Tuning of Block Copolymer Based on Random Copolymerization for High‑Quality Sub‑6 nm Pattern Formation.</strong> <em>Adv. Funct. Mater.</em> 28, 1800765 (2018). <a href="https://doi.org/10.1002/adfm.201800765" target="_blank">DOI:10.1002/adfm.201800765</a></li>
+        <li><strong>Molecular Structure Engineering of Dielectric Fluorinated Polymers for Enhanced Performance of Triboelectric Nanogenerators.</strong> <em>Nano Energy</em> 53, 37‑45 (2018). <a href="https://doi.org/10.1016/j.nanoen.2018.08.032" target="_blank">DOI:10.1016/j.nanoen.2018.08.032</a></li>
+        <li><strong>Synthesis of Poly(styrene‑b‑4‑(tert‑butyldimethylsiloxy)styrene) Block Copolymers and Characterization of Their Self‑Assembled Patterns.</strong> <em>Mol. Syst. Des. Eng.</em> 2, 589‑596 (2017). <a href="https://doi.org/10.1039/C7ME00085E" target="_blank">DOI:10.1039/C7ME00085E</a></li>
+        <li><strong>Improvement of a Block Copolymer (PS‑b‑PDMS) Template Etch Profile Using Amorphous Carbon Layer.</strong> <em>Proc. SPIE</em> 10149, 104‑109 (2017). <a href="https://doi.org/10.1117/12.2258147" target="_blank">DOI:10.1117/12.2258147</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Find my code and open‑source work on GitHub.</p>
+      <a href="https://github.com/swsong10" class="btn-primary" target="_blank">GitHub Profile</a>
+    </div>
+  </section>
+
+  <footer class="footer">© 2025 Seung Won Song. All rights reserved.</footer>
+  <script src="toggle.js"></
