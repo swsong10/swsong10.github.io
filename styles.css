@@ -1,0 +1,2 @@
+:root{--primary:#1a73e8;--accent:#ea4335;--dark:#202124;--light:#f8f9fa;font-size:16px;}
+body{font-family:Arial,Helvetica,sans-serif;color:var(--dark);background:var(--light);}
