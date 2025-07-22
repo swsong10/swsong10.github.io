@@ -1,2 +1,16 @@
-:root{--primary:#1a73e8;--accent:#ea4335;--dark:#202124;--light:#f8f9fa;font-size:16px;}
-body{font-family:Arial,Helvetica,sans-serif;color:var(--dark);background:var(--light);}
+<!-- ========== styles.css ========= -->
+/* Core stylesheet shared by index.html & main.html */
+:root{
+  --primary:#1a73e8;    /* Google Blue */
+  --accent:#ea4335;     /* Google Red */
+  --dark:#202124;
+  --light:#f8f9fa;
+  --gray:#5f6368;
+  --radius:.75rem;
+  --max-width:1100px;
+  --transition:.3s ease-in-out;
+  font-size:16px;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:Arial,Helvetica,sans-serif;color:var(--dark);background:var(--light);line-height:1.6;}
+.container{width:90%;max-width
