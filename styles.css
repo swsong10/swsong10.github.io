@@ -65,4 +65,7 @@ img{max-width:100%;height:auto;}
   nav.open{right:0;}
   .nav-links{flex-direction:column;padding:1rem;}
   .nav-links li{margin-bottom:1rem;}
+
 }
+section{scroll-margin-top:80px;}
+
